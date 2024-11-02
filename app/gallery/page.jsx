@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const galleryItems = [
   { id: 1, src: '/gallery/image1.jpg', type: 'image', description: 'Sony xm4 website' },
@@ -31,7 +32,7 @@ const GalleryPage = () => {
         {galleryItems.map((item) => (
           <div key={item.id} className='relative'>
             {item.type === 'image' ? (
-              <img 
+              <Image 
                 src={item.src} 
                 alt={item.description} 
                 className='w-full h-auto rounded-lg' 
