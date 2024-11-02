@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import logo from "../assets/FaviconFirstlane.svg";
+import logo from "../assets/Favicon.svg";
 import desktop from "../assets/desktopfooter.jpg";
 import mobile from "../assets/mobilefooter.jpg";
 
